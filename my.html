@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!--font aweosome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--css-->
+    <link rel="stylesheet" href="./css/your.css">
+</head>
+<body>
+    <!--heading part-->
+    <header>
+        <div class="toggle">
+            <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+           </div>
+            <div class="logo">JM</div>
+        <nav>
+            <ul>
+                <li><a href="#main">Main</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--heading part end-->
+<!--hero-->
+<section id="main">
+    <div class="hero">
+        <h1>Hello Everyone</h1>
+        <p>I am a web Designer and Developer</p>
+        <div class="hero-2">
+            <div class="circle">
+               <div class="hire">
+                <a href="form.html">HIRE ME</a>
+               </div>
+            </div>
+          </div>
+    </div>
+</section>
+<!--about part-->
+<section id="about">
+    <div class="about">
+        <div class="about-img">
+            <img src="./img/profile.jpg" alt="no image found">
+        </div>
+        <div class="about-text">
+            <h1>HI I'm Talha Jubayer</h1>
+            <p>I am a certified Web Designer and Developer.I can ensure a good service and a good project.
+                Everyone has his own performance. I will help you to create your project.You can trust me for the first time,and a I can ensure you that you will remember my services. </p>
+        </div>
+    </div>
+</section>
+<!--about part end-->
+<!--
+    services
+-->
+<section id="services">
+    <div class="grid">
+        <div class="grid-items">
+            <div class="grid-img">
+                <img src="./img/pexels-designecologist-1779487 (1).jpg" alt="no image found">
+            </div>
+            <div class="grid-text">
+                <h1>Web Design</h1>
+                <p>Hello I am a certified Web Designer.I will design any type of website you want. </p>
+                <a href="#">More</a>
+            </div>
+        </div>
+        <div class="grid-items">
+            <div class="grid-img">
+                <img src="./img/pexels-negative-space-92904.jpg" alt="no image found">
+            </div>
+            <div class="grid-text">
+                <h1>Web Development</h1>
+                <p>Hello I am a certified Web Developer.I will develop any type of website you want. </p>
+                <a href="#">More</a>
+            </div>
+        </div>
+        <div class="grid-items">
+            <div class="grid-img">
+                <img src="./img/pexels-christina-morillo-1181467.jpg" alt="no image found">
+            </div>
+            <div class="grid-text">
+                <h1>Portfolio Website Development</h1>
+                <p>Hello I am a certified Web Designer and Developer.I will design any type of portfolio website you want. </p>
+                <a href="#">More</a>
+            </div>
+        </div>
+        <div class="grid-items">
+            <div class="grid-img">
+                <img src="./img/pexels-tranmautritam-326501.jpg" alt="no image found">
+            </div>
+            <div class="grid-text">
+                <h1>PSD to HTML</h1>
+                <p>Hello I am a certified Web Designer and Developer.I will do any type of PSD to HTML you want. </p>
+                <a href="#">More</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--
+    services part end
+-->
+<section id="contact">
+    <div class="contact">
+        <div class="form">
+            <input type="text" placeholder="Your Name"><br>
+            <input type="text" placeholder="Your Specification"><br>
+            <input type="password" placeholder="Enter Your password"><br>
+            <button>Send</button>
+        </div>
+        <div class="contact-img">
+            <img src="./img/cover.jpg" alt="">
+        </div>
+    </div>
+</section>
+<section>
+    <div class="res">
+        <div class="img">
+            <img src="./img/mobile.png" alt="">
+            <h1>Fully Responsive Website.</h1>
+        </div>
+        <div class="code">
+            <img src="./img/code.png" alt="">
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="foot">
+        <div class="foot-left">
+            <h1>JM WEb</h1>
+            <p>Visit my project and find me for you.</p>
+        </div>
+        <div class="foot-mid">
+            <h1>Find me on</h1>
+            <a href="https://www.facebook.com/profile.php?id=100011714800207">Facebook</a>
+            <a href="https://twitter.com/TalhaJu14079420">Twitter</a>
+            <a href="https://www.instagram.com/jubayer1798/">Instagram</a>
+            <a href="https://www.youtube.com/">You Tube</a>
+        </div>
+        <div class="foot-right">
+            <h1>Specially For</h1>
+            <a href="">PSD to HTML</a>
+            <a href="">E-Commerce Website</a>
+            <a href="">Portfolio Website</a>
+            <a href="">HTML CSS JS</a>
+        </div>
+    </div>
+</footer>
+</body>
+<script type="text/javascript">
+    const toggle= document.querySelector('.toggle');
+    const nav = document.querySelector('ul');
+    toggle.addEventListener('click', ()=>{
+    nav.classList.toggle("open")});
+    
+    </script>
+</html>
